@@ -1,0 +1,1255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: futra;
+}
+
+.main-header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.column .row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.row img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.row img:last-child {
+    margin-right: 50px;
+}
+
+
+/* second header start now  */
+
+.second-header {
+    width: 100%;
+    height: 43Vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0 0 1px gray;
+    margin-bottom: 0px;
+}
+
+#header-nav {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.search i {
+    margin-left: 60px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.711);
+    cursor: pointer;
+}
+
+#search i:last-child {
+    margin-right: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#search i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.second-content {
+    display: block;
+}
+
+#second-content ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 20px;
+}
+
+#second-content ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.627);
+    font-size: 13px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+#third-content,
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third-content li {
+    margin: 5px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#third-content li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.627);
+    font-size: 13px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    margin-left: 5px;
+    background-color: gray;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 100%;
+}
+
+nav i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* drop down menu here  */
+
+#second-content .uniq {
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px gray;
+    left: 4%;
+    display: none;
+}
+
+#second-content .uniq ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-content .uniq ul li {
+    margin: 0px 20px 10px 5px;
+}
+
+#second-content .uniq ul li a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+#second-content ul li:hover .uniq {
+    display: block;
+}
+
+
+
+
+
+#second-content .collection {
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px gray;
+    left: 53%;
+    display: none;
+}
+
+#second-content .collection ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-content .collection ul li {
+    margin: 0px 20px 10px 5px;
+}
+
+#second-content .collection ul a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+#second-content ul li:hover .collection {
+    display: block;
+}
+
+
+
+#second-content .shop {
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px gray;
+    left: 20%;
+    /* opacity: 0; */
+    display: none;
+}
+
+#second-content .shop ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-content .shop ul li {
+    margin: 0 20px 7px 5px;
+}
+
+#second-content .shop ul a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+#second-content ul li:hover .shop {
+    /* opacity: 1; */
+    display: block;
+}
+
+
+
+#second-content .resources {
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px gray;
+    display: none;
+}
+
+#second-content .resources ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-content .resources ul li {
+    margin: 0 20px 7px 5px;
+}
+
+#second-content .resources ul li a {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+#second-content ul li:hover .resources {
+    display: block;
+}
+
+
+/* asid container statr now */
+
+.aside-con {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.collection-collumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.collection-row {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: 5px 10px;
+}
+
+.collection-row .collection-img img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.collection-row h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/* section statr here  */
+
+
+.section-con {
+    width: 100%;
+    height: 180vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(image/GypsySummer2387_0251c4a7-4113-4474-b211-5d99a2b53af6.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.second-bg .section-content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: auto;
+}
+
+.second-bg .section-content div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.second-bg .section-content div p {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    font-family: sans-serif;
+}
+
+.second-bg .section-content div h1 {
+    font-size: 70px;
+    word-spacing: 2px;
+    font-weight: 800;
+    color: white;
+    z-index: 99;
+}
+
+.second-bg .section-content div button {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: 4px solid white;
+    background: transparent;
+    font-size: 19px;
+    font-weight: 800;
+    color: rgb(217, 118, 118);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+/* view content  */
+
+.New-column {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-con div h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.732);
+}
+
+.new-con div button {
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px gray;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    margin-left: 40px;
+}
+
+
+/* main content statr here */
+
+
+.main {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.main-con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-con .main-row {
+    width: 18%;
+    height: 80%;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.main-con .main-row:first-child {
+    margin-left: 20px;
+}
+
+.main-con .main-row:last-child {
+    margin-right: 20px;
+}
+
+.main-con .main-row .row-img1 {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con .main-row .row-img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-btn {
+    width: 150px;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    /* top: 86%; */
+    top: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-con .main-row .row-img1:hover .shop-btn {
+    top: 86%;
+    opacity: 1;
+}
+
+.main-con .main-row .row-img2 {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con .main-row .row-img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-btn2 {
+    width: 150px;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    /* top: 86%; */
+    top: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-con .main-row .row-img2:hover .shop-btn2 {
+    top: 86%;
+    opacity: 1;
+}
+
+.main-con .main-row .row-img3 {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con .main-row .row-img3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-btn3 {
+    width: 150px;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    /* top: 86%; */
+    top: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-con .main-row .row-img3:hover .shop-btn3 {
+    top: 86%;
+    opacity: 1;
+}
+
+.main-con .main-row .row-img4 {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con .main-row .row-img4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-btn4 {
+    width: 150px;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    /* top: 86%; */
+    top: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-con .main-row .row-img4:hover .shop-btn4 {
+    top: 86%;
+    opacity: 1;
+}
+
+.main-con .main-row .row-img5 {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con .main-row .row-img5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-btn5 {
+    width: 150px;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 15%;
+    cursor: pointer;
+    /* top: 86%; */
+    top: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.main-con .main-row .row-img5:hover .shop-btn5 {
+    top: 86%;
+    opacity: 1;
+}
+
+/* main p and span codin here for all */
+.main-con .main-row p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 20px;
+}
+
+.main-con .main-row span {
+    font-size: 15px;
+}
+
+/* heading summer in article   */
+
+.summer-conetnt {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.summer-conetnt h1 {
+    font-size: 40px;
+    word-spacing: 3px;
+    font-weight: lighter;
+}
+
+
+/* second shop box start in section */
+
+.second-shoping {
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.second-div{
+    margin-bottom: 60px;
+}
+
+.second-view-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.second-view-btn button{
+    width: 140px;
+    height: 40px ;
+    border: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* full page bg section start here */
+
+
+.fullpage-con{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.fullpage-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fullpage-img {
+    position: relative;
+}
+.fullpage-con .fullpage-row{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.fullpage-con .fullpage-row h1{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.fullpage-con .fullpage-row button{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+/* image row section  */
+
+.image-row{
+    margin-bottom: 80px;
+    width: 100%;
+    height: 100%;
+}
+/* small aricle box here */
+
+.list-row{
+    width: 100%;
+    height: 120px;
+}
+.list-row div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-row div h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* Category-contrainer here  */
+
+.category-row1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.category-row1 .category-box{
+    width: 30%;
+    height: 95%;
+    display: block;
+    text-align: center;
+}
+.category-row1 .category-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.category-row1 .category-box p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.category-row1 .category-box img:hover{
+    scale: 1.05;
+}
+
+.category-row2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.category-row2 .category-box{
+    width: 30%;
+    height: 95%;
+    display: block;
+    text-align: center;
+}
+.category-row2 .category-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.category-row2 .category-box p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.category-row2 .category-box img:hover{
+    scale: 1.05;
+}
+
+
+
+/* next box start here full-con section */
+
+.full-con{
+    margin-top: 50px;
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(255, 255, 255);   
+}
+.full-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.full-row .first-img-box{
+    width: 68%;
+    height: 100%;   
+}
+.full-row .first-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.full-row .second-img-box{
+    width: 25%;
+    height: 66%;
+    margin-top: 170px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.full-row .second-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.full-row .second-img-box p{
+    font-size: 20px;
+}
+.full-row .second-img-box span{
+    font-size: 17px;
+}
+
+/* next section start here back-iamge */
+
+
+.back-image{
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.back-image-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.back-image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.back-image-box .back-image-content{
+    display: block;
+}
+.back-image-box .back-image-content h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 70%;
+    left: 36%;
+}
+.back-image-box .back-image-content button{
+    position: absolute;
+    top: 86%;
+    left: 40%;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+     background-color: transparent;
+    border: 2.5px solid white;
+}
+
+/* next section here */
+
+.shop-categary{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
+/* heading div Celebrities in Summer here */
+
+.Celebrities-in-Summer{
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Celebrities-in-Summer h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: sans-serif;
+
+}
+
+/* next container section start here */
+
+.tree-image-con{
+    width: 100%;
+    height: 120vh;
+}
+.tree-image-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tree-image-box #tree-image-box1{
+    display: block;
+    width: 31%;
+    height: 100%;
+}
+
+.tree-image-box #tree-image-box1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.tree-image-box #tree-image-box2{
+    display: block;
+    width: 31%;
+    height: 100%;
+}
+
+.tree-image-box #tree-image-box2 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.tree-image-box #tree-image-box3{
+    display: block;
+    width: 31%;
+    height: 100%;
+}
+
+.tree-image-box #tree-image-box3 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tree-image-box .shop-box-btn{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px gray;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.tree-image-box .shop-box-btn:hover{
+    border: 2px solid black;
+}
+
+.Explore-button-box{
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Explore-button-box button{
+    width: 200px;
+    height: 36px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    word-spacing: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* last-bg-container here */
+
+.last-bg-container{
+    width: 100%;
+    height: 100vh;
+}
+.last-bg-row{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.last-bg-row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.last-bg-row h1{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.last-bg-row button{
+    width: 160px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+}
+
+/* last-shoping-list here */
+
+.last-shoping-list{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/* end now beacuse copy paste already do */
+
+/* heading-container here */
+
+.heading-row{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249,249,249);
+}
+.heading-container{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249,249,249);
+}
+.heading-container h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.main-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(249,249,249);
+    
+}
+.main-div{
+    width: 28%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(241, 247, 255, 0.869);
+    padding: 22px;
+    cursor: grab;
+    margin-bottom: 80px;
+    transition: all 0.3s;
+}
+.main-div:hover{
+    width: 30%;
+    box-shadow: 10px 10px 30px #babecc,
+    -10px -10px 30px #ffffff;
+}
+.main-div p{
+    line-height: 22px;
+    word-spacing: 2px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.main-div h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* second-last-footer start now */
+
+.second-last-footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.433);
+}
+.second-last-footer .marquee-box{
+    width: 100%;
+    height: 120px;
+}
+.mark{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.707);
+}
+.themnail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timing-content{
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.timing-content h1{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 5px;
+}
+.timing-content h3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 5px;
+}
+.footer-btn{
+    width: 250px;
+    height: 35px;
+    background-color:rgba(0, 0, 0, 0.854);
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 200;
+    word-spacing: 5px;
+    margin: 5PX;
+}
+
+
+/* last-footer start now */
+
+.last-footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: left;
+}
+.last-footer .first-box{
+    width: 22%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.last-footer  .second-box{
+    width: 22%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.last-footer  .third-box{
+    width: 22%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.last-footer  .forth-box{
+    width: 22%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.last-footer  .forth-box input{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.last-footer i{
+    font-size: 18px;
+    margin-left: -15px;
+}
+
+.present-by{
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
